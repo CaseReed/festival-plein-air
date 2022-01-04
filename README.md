@@ -1,6 +1,6 @@
 # P3 - Openclassrooms
 > Greetings, welcome to third project to my study with Openclassrooms for succeed my licence in developer front-end.
-> Live demo [here](https://jtavernier-blog-react.vercel.app/).
+> Live demo [here](https://festival-plein-air.vercel.app/).
 
 ## Table of Contents
 * [General Info](#general-information)
