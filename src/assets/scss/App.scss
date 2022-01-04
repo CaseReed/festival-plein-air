@@ -1,7 +1,7 @@
 /*----- VARIABLES -----*/
 $primary-color: #000000;
-$secondary-color: #E9CA94;
-$tertiary-color: #FFFFFF;
+$secondary-color: #e9ca94;
+$tertiary-color: #ffffff;
 $background-color: #181818;
 /*----- VARIABLES -----*/
 
@@ -12,7 +12,7 @@ $background-color: #181818;
 	height: $height;
 	vertical-align: middle;
 	margin-bottom: 0.313em;
-	margin-right: .5em;
+	margin-right: 0.5em;
 }
 
 @mixin span-bold($color: $primary-color) {
@@ -36,11 +36,11 @@ body {
 
 	a {
 		color: $tertiary-color !important;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 400;
 		font-size: 0.875em;
 		text-transform: uppercase;
-		transition: all ease .3s;
+		transition: all ease 0.3s;
 
 		&:hover {
 			background-color: $secondary-color;
@@ -50,7 +50,7 @@ body {
 	}
 
 	button {
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 400;
 		font-size: 0.875em;
 		text-transform: uppercase;
@@ -62,22 +62,22 @@ body {
 
 	h1 {
 		text-transform: uppercase;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 500;
 		color: $primary-color;
 	}
 
 	h2 {
 		text-transform: uppercase;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 700;
-		font-size: 2.250em;
+		font-size: 2.25em;
 		color: $tertiary-color;
 	}
 
 	h3 {
 		text-transform: uppercase;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 700;
 		font-size: 0.875em;
 		color: $primary-color;
@@ -85,7 +85,7 @@ body {
 
 	h4 {
 		text-transform: uppercase;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 700;
 		font-size: 1.125em;
 		color: $primary-color;
@@ -93,7 +93,7 @@ body {
 
 	.subtitle-b {
 		text-transform: uppercase;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 300;
 		color: $primary-color;
 		font-size: 0.875em;
@@ -101,7 +101,7 @@ body {
 
 	p {
 		color: $primary-color;
-		font-family: 'Open sans', sans-serif;
+		font-family: "Open sans", sans-serif;
 		font-weight: 300;
 		font-size: 0.875em;
 	}
@@ -111,7 +111,7 @@ body {
 	}
 
 	.text-p {
-		padding: .3em .5em;
+		padding: 0.3em 0.5em;
 	}
 
 	.btn-main {
@@ -128,19 +128,19 @@ body {
 	}
 
 	.span-bold-b {
-		@include span-bold($primary-color)
+		@include span-bold($primary-color);
 	}
 
 	.span-bold-s {
-		@include span-bold($secondary-color)
+		@include span-bold($secondary-color);
 	}
 
 	.subline-w {
-		@include subline($tertiary-color)
+		@include subline($tertiary-color);
 	}
 
 	.subline-b {
-		@include subline($primary-color)
+		@include subline($primary-color);
 	}
 
 	.wrapper-subline {
@@ -150,7 +150,7 @@ body {
 	}
 
 	.section {
-		margin-bottom: 3.750em;
+		margin-bottom: 3.75em;
 	}
 
 	.main-img {
@@ -208,7 +208,7 @@ nav {
 		padding: 1.875em;
 
 		.hero-next-movie {
-			font-family: 'Roboto Mono', sans-serif;
+			font-family: "Roboto Mono", sans-serif;
 			font-weight: 400;
 			font-size: 1.125em;
 			text-transform: uppercase;
@@ -228,12 +228,12 @@ nav {
 		flex-direction: column-reverse;
 
 		div {
-			&:nth-child(0n+2) {
+			&:nth-child(0n + 2) {
 				height: 300px;
 				margin-bottom: 1em;
 			}
 
-			&:nth-child(0n+3) {
+			&:nth-child(0n + 3) {
 				display: none;
 			}
 		}
@@ -243,7 +243,7 @@ nav {
 .soon-session {
 	p {
 		color: $tertiary-color;
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: "Roboto Mono", sans-serif;
 		font-weight: 300;
 	}
 }
@@ -309,14 +309,14 @@ nav {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		transition: all ease .3s;
+		transition: all ease 0.3s;
 		@include main-box-shadow(0, 0);
 		cursor: pointer;
 		padding-bottom: 30px;
 
 		:hover {
 			@include main-box-shadow;
-			transition: all ease .3s;
+			transition: all ease 0.3s;
 		}
 
 		.wrapper-label {
@@ -339,7 +339,7 @@ nav {
 
 				p {
 					margin-bottom: 0;
-					font-family: 'Roboto Mono', sans-serif;
+					font-family: "Roboto Mono", sans-serif;
 					font-weight: 400;
 					font-size: 0.875em;
 				}
@@ -354,7 +354,7 @@ nav {
 
 				p {
 					margin-bottom: 0;
-					font-family: 'Roboto Mono', sans-serif;
+					font-family: "Roboto Mono", sans-serif;
 					font-weight: 400;
 					font-size: 0.875em;
 					text-transform: uppercase;
@@ -365,10 +365,10 @@ nav {
 		.label-wrapper {
 			position: absolute;
 			background-color: $tertiary-color;
-			padding: 0.813em 2.250em;
+			padding: 0.813em 2.25em;
 			text-align: center;
 			opacity: 0;
-			transition: all ease .3s;
+			transition: all ease 0.3s;
 			//box-shadow: none;
 
 			* {
@@ -384,7 +384,7 @@ nav {
 
 	.swiper-slide:hover .label-wrapper {
 		opacity: 1;
-		transition: all ease .3s;
+		transition: all ease 0.3s;
 	}
 }
 
@@ -439,7 +439,6 @@ nav {
 
 /* BILLETERIE */
 .wrapper-label {
-
 	* {
 		box-shadow: none !important;
 	}
@@ -452,7 +451,7 @@ nav {
 
 	.wrapper-card-news {
 		background-color: $tertiary-color;
-		padding: 1.250em;
+		padding: 1.25em;
 
 		* {
 			box-shadow: none !important;
@@ -460,9 +459,9 @@ nav {
 
 		.news-date {
 			color: $primary-color;
-			font-family: 'Roboto Mono', sans-serif;
+			font-family: "Roboto Mono", sans-serif;
 			font-weight: 300;
-			font-size: 0.750em;
+			font-size: 0.75em;
 			margin: 0;
 		}
 
@@ -476,7 +475,6 @@ nav {
 
 /* CONTACT */
 #contact-section {
-
 	.wrapper-form-contact {
 		margin-top: 1.875em;
 
@@ -517,7 +515,7 @@ nav {
 
 	input {
 		border-radius: 0;
-		font-family: 'Open sans', sans-serif;
+		font-family: "Open sans", sans-serif;
 		font-weight: 400;
 		font-size: 0.875em;
 		height: 45px;
@@ -531,10 +529,10 @@ nav {
 		}
 
 		&::placeholder {
-			font-family: 'Open sans', sans-serif;
+			font-family: "Open sans", sans-serif;
 			font-weight: 400;
 			font-size: 0.875em;
-			opacity: .25;
+			opacity: 0.25;
 			color: $primary-color;
 		}
 	}
@@ -617,20 +615,20 @@ nav {
 	.instagram-link-block {
 		height: 100%;
 		background-color: $tertiary-color;
-		padding: 3.750em 2.813em;
+		padding: 3.75em 2.813em;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
 
-		img	{
+		img {
 			position: initial !important;
 		}
 
 		p {
 			text-transform: uppercase;
 			font-size: 1.125em;
-			font-family: 'Roboto Mono', sans-serif;
+			font-family: "Roboto Mono", sans-serif;
 			font-weight: 700;
 			margin: 0 0 0.625em 0;
 		}
@@ -650,7 +648,7 @@ nav {
 			align-items: center;
 			justify-content: center;
 			background-color: $primary-color;
-			opacity: .5;
+			opacity: 0.5;
 		}
 
 		img {
@@ -663,7 +661,6 @@ nav {
 
 /* FOOTER */
 #footer {
-
 	.wrapper-footer {
 		padding: 1.875em;
 		background-color: $tertiary-color;
@@ -701,9 +698,14 @@ nav {
 			}
 		}
 
-		h4 {
+		span {
 			margin-bottom: 0.875em;
 			padding-left: 14px;
+			text-transform: uppercase;
+			font-family: "Roboto Mono", sans-serif;
+			font-weight: 700;
+			font-size: 1.125em;
+			color: $primary-color;
 		}
 
 		#link-no-padding {
@@ -711,7 +713,7 @@ nav {
 		}
 
 		li {
-			margin-bottom: 0.750em;
+			margin-bottom: 0.75em;
 		}
 
 		a {
@@ -723,23 +725,22 @@ nav {
 	}
 
 	#footer-copyright {
-
 		p {
 			margin: 0;
 		}
 
 		.label-copyright {
-			font-family: 'Roboto Mono', sans-serif;
+			font-family: "Roboto Mono", sans-serif;
 			font-weight: 400;
 			font-size: 0.875em;
 			text-transform: uppercase;
-			margin: 0.750em 0 0.250em 0;
+			margin: 0.75em 0 0.25em 0;
 		}
 
 		.label-citation {
-			font-family: 'Roboto Mono', sans-serif;
+			font-family: "Roboto Mono", sans-serif;
 			font-weight: 100;
-			font-size: 0.750em;
+			font-size: 0.75em;
 		}
 	}
 }

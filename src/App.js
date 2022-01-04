@@ -6,7 +6,6 @@ function App() {
     <>
       <header>
         <nav class="navbar navbar-expand-sm container-xl">
-          <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
@@ -62,7 +61,7 @@ function App() {
               <p>Lundi 24 juin | <span class="span-bold-b">19h30</span></p>
               <p>Mardi 25 juin | <span class="span-bold-b">20h30</span></p>
               <p>Mercredi 26 juin | <span class="span-bold-b">21h30</span></p>
-              <a class="btn btn-main">Réserver</a>
+              <a href='#' class="btn btn-main">Réserver</a>
             </div>
           </div>
           <div class="col">
@@ -96,7 +95,7 @@ function App() {
               sagittis non neque ac, vestibulum rutrum mi. Morbi tristique massa quis finibus sodales.</p>
             <div class="wrapper-subline">
               <div class="subline-w"></div>
-              <a class="text-p" href="">En savoir plus</a>
+              <a class="text-p" href="#">En savoir plus</a>
             </div>
           </div>
           <div class="col">
@@ -147,7 +146,7 @@ function App() {
 
         <div class="wrapper-subline text-center">
           <div class="subline-w"></div>
-          <a class="text-p" href="">Voir plus</a>
+          <a class="text-p" href="#">Voir plus</a>
         </div>
 
       </section>
@@ -352,7 +351,7 @@ function App() {
           </div>
           <div class="d-flex wrapper-overlay">
             <div class="instagram-link-block">
-              <p>Suivez-nous sur <span class="span-bold-s">instagram</span></p>
+              <p>Suivez-nous sur instagram</p>
               <img src="assets/svg/instagram-dark.svg" alt="" />
             </div>
           </div>
@@ -379,7 +378,7 @@ function App() {
             </div>
             <div class="col wrapper-footer-link">
               <div class="col">
-                <h4>Navigation</h4>
+                <span>Navigation</span>
                 <ul>
                   <li><a href="#hero-section">Accueil</a></li>
                   <li><a href="#about-section">A propos</a></li>
@@ -390,14 +389,14 @@ function App() {
                 </ul>
               </div>
               <div class="col">
-                <h4>Réseaux</h4>
+                <span>Réseaux</span>
                 <ul>
                   <li><a href="#">Facebook</a></li>
                   <li><a href="#">Instagram</a></li>
                 </ul>
               </div>
               <div class="col">
-                <h4 id="link-no-padding">Contact</h4>
+                <span id="link-no-padding">Contact</span>
                 <ul>
                   <li>
                     <p>24 rue elise</p>
